@@ -1,0 +1,11 @@
+# Archivos de construccion, compiladores y editores.
+build/
+cmake-build-*/
+.idea/
+.vscode/
+*.exe
+*.obj
+*.o
+*.out
+*.pdb
+.DS_Store

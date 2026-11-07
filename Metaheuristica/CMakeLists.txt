@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(AlgoritmosAvanzadosGRASP LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(tablas_discos 01-tablas-discos/main.cpp)
+add_executable(empaquetamiento_cajas 02-empaquetamiento-cajas/main.cpp)
+add_executable(rutas_repartidores 03-rutas-repartidores/main.cpp)
+add_executable(produccion_parte_a 04-produccion-botellas/parte-a/main.cpp)
+add_executable(produccion_parte_b 04-produccion-botellas/parte-b/main.cpp)
+add_executable(courier_motorizados 05-courier-motorizados/main.cpp)
+add_executable(proyectos_predecesores 06-proyectos-predecesores/main.cpp)
+add_executable(pedidos_camiones 07-pedidos-camiones/main.cpp)
